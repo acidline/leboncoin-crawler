@@ -16,8 +16,8 @@
         "fabpot/goutte": "*"
     },
     "autoload": {
-        "psr-0": {
-            "Fuz": "src"
+        "psr-4": {
+            "Fuz\\": "src/Fuz/"
         }
     }
 }
