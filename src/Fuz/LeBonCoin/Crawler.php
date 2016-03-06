@@ -67,7 +67,7 @@ class Crawler
             $pageNumber++;
         } while ($fetchedAds < $totalAds && ($maxAds == 0 || $fetchedAds < $maxAds));
 
-        return array_slice($ads, $maxAds ? $maxAds : count($ads));
+        return array_slice($ads, 0, $maxAds ? $maxAds : count($ads));
     }
 
     protected function _fetchAds(DomCrawler $crawler)
