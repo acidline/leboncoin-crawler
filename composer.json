@@ -1,5 +1,23 @@
 {
+    "name": "ninsuo/leboncoin-crawler",
+    "type": "library",
+    "description": "",
+    "keywords": [],
+    "homepage": "https://github.com/ninsuo/leboncoin-crawler",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alain Tiemblo",
+            "email": "alain@fuz.org"
+        }
+    ],
     "require": {
+        "php": ">=5.3.3",
         "fabpot/goutte": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Fuz": "src"
+        }
     }
 }
